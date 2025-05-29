@@ -1,6 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Enak - Pesan Makanan Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
 <body>
-  <h1>Proyek Pertamaku!</h1>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>🍴 Resto Enak</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h2>Makanan Enak, Cepat Saji!</h2>
+            <p>Pesan sekarang dan dapatkan diskon 20% untuk pembelian pertama.</p>
+            <a href="#menu" class="btn">Lihat Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2>Menu Kami</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/150?text=Nasi+Goreng" alt="Nasi Goreng">
+                <h3>Nasi Goreng</h3>
+                <p>Rp 25.000</p>
+                <button class="btn-order">Pesan</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/150?text=Mie+Ayam" alt="Mie Ayam">
+                <h3>Mie Ayam</h3>
+                <p>Rp 20.000</p>
+                <button class="btn-order">Pesan</button>
+            </div>
+            <div class="menu-item">
+                <img src="https://via.placeholder.com/150?text=Ayam+Bakar" alt="Ayam Bakar">
+                <h3>Ayam Bakar</h3>
+                <p>Rp 30.000</p>
+                <button class="btn-order">Pesan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Hubungi Kami</h3>
+                <p><i class="fas fa-phone"></i> +62 123 4567 890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Resto Enak No. 123, Jakarta</p>
+            </div>
+            <div class="social-media">
+                <h3>Follow Kami</h3>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2023 Resto Enak. All rights reserved.</p>
+    </footer>
 </body>
 </html>
